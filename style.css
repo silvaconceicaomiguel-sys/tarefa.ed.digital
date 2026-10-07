@@ -1,3 +1,17 @@
+:root{
+--cor-fundo:#f4f1ea;
+--cor-texto:black;
+--cor-principal:rgb(19, 70, 4);
+--cor-secundaria:rgb(22, 100, 6);
+--cor-hover:rgb(240, 228, 228);
+--cor-superficie:white;
+--cor-card:rgb(78, 27, 3);
+--cor-ledenda:rgb(20, 20, 20);
+--cor-clara:rgb(240, 237, 237);
+--cor-rodape:rgb(27, 24, 24);
+
+}
+
 body {
     background-color: #f4f1ea;
     color: #222222;
