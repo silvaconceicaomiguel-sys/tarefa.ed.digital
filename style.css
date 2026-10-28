@@ -9,7 +9,13 @@
 --cor-ledenda:rgb(20, 20, 20);
 --cor-clara:rgb(240, 237, 237);
 --cor-rodape:rgb(27, 24, 24);
-
+}
+.teme-escuro{
+--cor-fundo:#121212;
+--cor-texto:#f5f5f5;
+--cor-principL:#d7a6ca;
+--cor-superficie:#1e1e1e;
+--cor-card:#2b2530;
 }
 
 body {
