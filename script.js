@@ -1,4 +1,4 @@
-const botoesCurtir = document.querySelectorALL(".curtir");
+const botoesCurtir = document.querySelectorAll(".curtir");
 botoesCurtir.forEach(function(botaoCurtir){
 
 let curtiu = false;
