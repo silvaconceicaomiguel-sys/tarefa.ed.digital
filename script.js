@@ -1,17 +1,17 @@
 const botoesCurtir = document.querySelectorALL(".curtir");
-botoesCurtir.forEach(function(botaoCurti){
+botoesCurtir.forEach(function(botaoCurtir){
 
-let curtir = false;
+let curtiu = false;
 botaoCurtir.addEventListener("click", curtir);
 function curtir(){
-const contador = botaoCurtir.querySelector("spen");
-if(curtir === false){
+const contador = botaoCurtir.querySelector("span");
+if(curtiu === false){
 contador.textContent++;
-curtir = true;}
+curtiu = true;}
 else{
 
 contador.textContent--;
-curtir = false;
+curtiu = false;
 
 }
 
@@ -22,7 +22,7 @@ curtir = false;
 });
 
 const btnTema = document.querySelector(".btn-tema");
-btnTema.addEventListener("click",mudarTema);
+btnTema.addEventListener("click", mudarTema);
 function mudarTema(){
     document.body.classList.toggle("tema-escuro");
 }
